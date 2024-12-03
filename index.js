@@ -7,7 +7,7 @@ if (getCookie("login")===""){
     redirect("/");
 }
 
-getJSON("https://http://127.0.0.1:5502/index.html/data/user","login",getCookie("login"),responseFunction)
+getJSON("https://asia-southeast2-awangga.cloudfunctions.net/satsetin/webhook/nomor/6285624482521","login",getCookie("login"),responseFunction)
 
 function responseFunction(result){
     if (result.status === 404){
